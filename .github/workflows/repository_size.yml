@@ -9,7 +9,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4.1.1
       with:
-        repository: '../..'
       - run: echo
       - run: du -skh --exclude=".git"
             
