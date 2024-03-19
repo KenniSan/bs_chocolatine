@@ -9,4 +9,6 @@ jobs:
     steps:
       - run: date
       - uses: actions/checkout@v4.1.1
+      - run: echo
+      - run: du -skh --exclude=".git"
             
