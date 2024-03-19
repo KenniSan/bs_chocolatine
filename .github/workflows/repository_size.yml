@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: echo
-      - run: du -skh --exclude=".git"
+      - uses: actions/checkout@v4.1.1
+      - run: echo du -skh --exclude=".git"
             
